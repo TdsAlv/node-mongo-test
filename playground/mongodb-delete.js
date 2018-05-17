@@ -9,6 +9,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', { useNewUrlParser: true
     const db = client.db('TodoApp');
     
     // Some useful functions. v2
+    // Honda
     // deleteMany
     // db.collection('Todos').deleteMany({text: 'Walk the tog'})
     // .then(function(result) {
