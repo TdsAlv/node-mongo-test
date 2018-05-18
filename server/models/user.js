@@ -10,18 +10,18 @@ var User = mongoose.model('User', {
     }
 });
 
-// This is the actual todo note
-var newUser = new User({
-    email: 'tds@gmail.com',
-});
+// // This is the actual todo note
+// var newUser = new User({
+//     email: 'tds@gmail.com',
+// });
 
-// And here we save it to the database
-newUser.save()
-.then(function(document) {
-    console.log('Saved user: ', document);
-}, function(err) {
-    console.log('Unable to save user: ', err);
-});
+// // And here we save it to the database
+// newUser.save()
+// .then(function(document) {
+//     console.log('Saved user: ', document);
+// }, function(err) {
+//     console.log('Unable to save user: ', err);
+// });
 
 module.exports = {
     User
